@@ -1,0 +1,13 @@
+sounddevice 
+py-espeak-ng
+numpy
+speechRecognition 
+openai
+pyttsx3
+fastapi
+uvicorn
+bs4
+websockets
+setuptools
+requests
+python-dotenv
