@@ -14,6 +14,7 @@ logger = logging.getLogger(__name__)
 
 # Initialize FastAPI app
 app = FastAPI()
+app.mount("/static", StaticFiles(directory="static"), name="static")
 
 load_dotenv()
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
